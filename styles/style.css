@@ -1,0 +1,108 @@
+/*font-style*/
+@font-face {
+    font-family: bloody-terror;
+    src: url(../Bloody\ terror\ TTF.ttf);
+  }
+
+/*select all elements*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*header,main,footer*/
+header, main, footer{
+    min-width: 100%;
+}
+header, footer{
+    background-color: rgba(69, 60, 60, 0);
+}
+/*Display: inline-flex*/
+header, .menu-list{
+    display: inline-flex
+}
+header img{
+    width: 5em;
+}
+/*menu*/
+.menu {
+    margin-left: auto;
+    align-self: center;
+}
+
+/*menu-list*/
+.menu-list {
+    list-style: none;
+}
+.menu-list li{
+    padding: 5px;
+}
+table {
+    border: 3px solid beige;
+    border-color: collapse;
+}
+th, td{
+    border: 2px solid beige;
+    text-align: center;
+}
+ul {
+    border: 3px solid beige;
+}
+ol{
+    border: 3px solid beige
+}
+body{
+    background-image: url(https://i.postimg.cc/wBbqFHNc/wp3416319.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*footer*/
+footer p{
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    color: Red;
+    font-family: bloody-terror;
+}
+/* Dropdown Button */
+.dropbtn {
+    color: rgba(255, 255, 255, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f100;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(255, 0, 0);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgba(81, 50, 50, 0.297);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-image: url(https://i.postimg.cc/wBbqFHNc/wp3416319.jpg);}
+  
